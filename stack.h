@@ -16,10 +16,19 @@ typedef struct Stack
 	int capacity;
 }ST;
 
+//初始化
 void StackInit(ST* ps);
+
+//销毁栈
 void StackDestroy(ST* ps);
+
+//插入
 void StackPush(ST* ps,STDateType x);
+
+//删除
 void StackPop(ST* ps);
+
+//
 STDateType StackTop(ST* ps);
 int StackSize(ST* ps);
 bool StackEmpty(ST* ps);
