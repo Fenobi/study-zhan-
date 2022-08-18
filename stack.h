@@ -27,6 +27,8 @@ void StackDestroy(ST* ps);
 void StackPush(ST* ps, STDateType x);
 
 //出栈
+
+//删除
 void StackPop(ST* ps);
 
 //获取栈顶元素
